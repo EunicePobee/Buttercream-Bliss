@@ -173,6 +173,7 @@ body {
 .caption {
     margin-top: 10px;
     margin-bottom: 2px;
+    padding-top: 1px;
 }
 
 /* #section2a {
@@ -197,20 +198,75 @@ body {
     margin-left: 50px;
 } */
 
+
+#looking-section {
+    background-color: rgba(0, 0, 0, 0.990);
+    margin-top: -20px;
+    padding-top: 50px;
+}
+
+#looking-text {
+    margin-left: 40px;
+    color: white;
+}
+
 .looking-section1 {
+    margin-left: 85px;
     display: flex;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 95%;
+}
+
+
+.looking-section1 p {
+    color: white;
+    font-size: 20px;
 }
 
 #looking-img1 {
-    width: 400px;
+    width: 500px;
+    height: 400px;
+}
+
+
+#looking-img2 {
     height: 500px;
+}
+
+
+#looking-img3 {
+    height: 600px;
 }
 
 .looking-section2 {
     display: flex;
+    width: 80%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin-left: 85px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
+
+#looking-img4 {
+    width: 400px;
+    height: 400px;
+}
+
+
+#looking-img5 {
+    width: 400px;
+}
+
+.looking-section2 p {
+    color: white;
+    font-size: 20px;
+}
