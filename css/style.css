@@ -1,6 +1,8 @@
 
 body {
     margin: 0;   
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 #headerbackground {
@@ -155,8 +157,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column gap: 10px;
-    grid-row gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 20px;
@@ -211,7 +213,7 @@ body {
 }
 
 .looking-section1 {
-    margin-left: 85px;
+    margin-left: 55px;
     display: flex;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -245,11 +247,11 @@ body {
 
 .looking-section2 {
     display: flex;
-    width: 80%;
+    width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
     margin-left: 85px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -266,7 +268,50 @@ body {
     width: 400px;
 }
 
+#looking-img6 {
+    height: 500px;
+    width: 400px;
+}
+
 .looking-section2 p {
     color: white;
     font-size: 20px;
+}
+
+#ul_list2 {
+    list-style: none;
+}
+
+#ul_list2 a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding-right: 10px;
+}
+
+.listitem1 {
+    color: white;
+    display: flex;
+    /* justify-content: start; */
+    gap: 20px;
+    list-style: none;
+    /* margin-left: -150px; */
+}
+
+#footer-section {
+    margin-top: 2rem;
+    display: flex;
+    gap: 15rem;
+    background-color: black;
+    padding-left: 20px;
+    color: white;
+}
+
+#footer-section p {
+    color: white;
+}
+
+.footer {
+    justify-content: flex-start;
+    margin-left: -2.5rem;
 }
